@@ -35,12 +35,34 @@ const HeroSection = () => {
         <div className="absolute bottom-1/3 right-1/4 w-72 h-72 bg-green-400/5 rounded-full blur-3xl"></div>
       </div>
       
-      {/* Decorative Elements */}
-      <div className="absolute top-1/4 left-20 hidden lg:block">
-        <Code className="h-12 w-12 text-green-500/30" />
+      {/* Tech Stack Animated Icons */}
+      <div className="absolute top-1/4 left-20 hidden lg:block animate-float">
+        <Code className="h-12 w-12 text-green-500/40" />
       </div>
-      <div className="absolute bottom-1/4 right-20 hidden lg:block">
-        <Database className="h-16 w-16 text-green-500/30" />
+      <div className="absolute bottom-1/4 right-20 hidden lg:block animate-float" style={{ animationDelay: '1s' }}>
+        <Database className="h-16 w-16 text-green-500/40" />
+      </div>
+      
+      {/* Additional Tech Stack Icons */}
+      <div className="absolute top-1/3 right-1/4 hidden lg:block animate-float" style={{ animationDelay: '0.5s' }}>
+        <div className="w-10 h-10 rounded-full bg-green-500/10 flex items-center justify-center">
+          <span className="text-green-400 font-bold text-sm">JS</span>
+        </div>
+      </div>
+      <div className="absolute bottom-1/3 left-1/4 hidden lg:block animate-float" style={{ animationDelay: '1.5s' }}>
+        <div className="w-12 h-12 rounded-full bg-green-500/10 flex items-center justify-center">
+          <span className="text-green-400 font-bold text-xs">React</span>
+        </div>
+      </div>
+      <div className="absolute top-1/2 left-10 hidden lg:block animate-float" style={{ animationDelay: '2s' }}>
+        <div className="w-8 h-8 rounded-full bg-green-500/10 flex items-center justify-center">
+          <span className="text-green-400 font-bold text-xs">Node</span>
+        </div>
+      </div>
+      <div className="absolute top-2/3 right-10 hidden lg:block animate-float" style={{ animationDelay: '2.5s' }}>
+        <div className="w-10 h-10 rounded-full bg-green-500/10 flex items-center justify-center">
+          <span className="text-green-400 font-bold text-xs">Mongo</span>
+        </div>
       </div>
       
       <div className="container mx-auto px-6 relative z-10">
