@@ -122,7 +122,7 @@ const ContactSection = () => {
                 </h4>
                 <div className="flex space-x-4">
                   <a
-                    href="https://linkedin.com/in/your-linkedin"
+                    href="https://linkedin.com/in/muhammed-jabeer-203b90331"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 sm:p-4 rounded-lg bg-green-500/10 text-green-500 hover:bg-green-500/20 transition-colors"
@@ -130,7 +130,7 @@ const ContactSection = () => {
                     <Linkedin className="h-5 w-5 sm:h-6 sm:w-6" />
                   </a>
                   <a
-                    href="https://github.com/your-github"
+                    href="https://github.com/MuhammedJabeer"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 sm:p-4 rounded-lg bg-green-500/10 text-green-500 hover:bg-green-500/20 transition-colors"

@@ -85,37 +85,47 @@ const AboutSection = () => {
             </div>
 
             {/* Education */}
-            <div className="glassmorphism p-6 sm:p-8 rounded-2xl shadow-lg hover:shadow-green-500/20 transition-shadow duration-300">
-              <h3 className="text-xl sm:text-2xl font-semibold mb-4 sm:mb-6 text-green-400">
-                Education
-              </h3>
+          <div className="glassmorphism p-6 sm:p-8 rounded-2xl shadow-lg hover:shadow-green-500/20 transition-shadow duration-300">
+  <h3 className="text-xl sm:text-2xl font-semibold mb-4 sm:mb-6 text-green-400">
+    Education & Learning
+  </h3>
 
-              <div className="space-y-6 sm:space-y-8">
-                <div className="relative pl-6 border-l-2 border-green-500">
-                  <div className="absolute -left-2 top-1 w-3 h-3 sm:w-4 sm:h-4 bg-green-500 rounded-full shadow-md shadow-green-500/50"></div>
-                  <h4 className="text-base sm:text-lg font-medium text-white">
-                    Bachelor of Commerce (B.Com)
-                  </h4>
-                  <p className="text-green-400 text-xs sm:text-sm">
-                    Arafa College of Arts and Science, MG University
-                  </p>
-                  <p className="text-gray-400 text-xs sm:text-sm">2021 – 2024</p>
-                </div>
+  <div className="space-y-6 sm:space-y-8">
+    <div className="relative pl-6 border-l-2 border-green-500">
+      <div className="absolute -left-2 top-1 w-3 h-3 sm:w-4 sm:h-4 bg-green-500 rounded-full shadow-md shadow-green-500/50"></div>
+      <h4 className="text-base sm:text-lg font-medium text-white">
+        Self-Learner: MERN Stack Development
+      </h4>
+      <p className="text-green-400 text-xs sm:text-sm">
+        Completed a 6-month intensive self-learning program
+      </p>
+      <p className="text-gray-400 text-xs sm:text-sm">2024 – 2025</p>
+    </div>
 
-                <div className="relative pl-6 border-l-2 border-green-500">
-                  <div className="absolute -left-2 top-1 w-3 h-3 sm:w-4 sm:h-4 bg-green-500 rounded-full shadow-md shadow-green-500/50"></div>
-                  <h4 className="text-base sm:text-lg font-medium text-white">
-                    Higher Secondary Education
-                  </h4>
-                  <p className="text-green-400 text-xs sm:text-sm">
-                    Computer Commerce - St. John's HSS Pulithanam
-                  </p>
-                  <p className="text-gray-400 text-xs sm:text-sm">
-                    2019 – 2021
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div className="relative pl-6 border-l-2 border-green-500">
+      <div className="absolute -left-2 top-1 w-3 h-3 sm:w-4 sm:h-4 bg-green-500 rounded-full shadow-md shadow-green-500/50"></div>
+      <h4 className="text-base sm:text-lg font-medium text-white">
+        Bachelor of Commerce (B.Com)
+      </h4>
+      <p className="text-green-400 text-xs sm:text-sm">
+        Arafa College of Arts and Science, MG University
+      </p>
+      <p className="text-gray-400 text-xs sm:text-sm">2021 – 2024</p>
+    </div>
+
+    <div className="relative pl-6 border-l-2 border-green-500">
+      <div className="absolute -left-2 top-1 w-3 h-3 sm:w-4 sm:h-4 bg-green-500 rounded-full shadow-md shadow-green-500/50"></div>
+      <h4 className="text-base sm:text-lg font-medium text-white">
+        Higher Secondary Education
+      </h4>
+      <p className="text-green-400 text-xs sm:text-sm">
+        Computer Commerce - St. John's HSS Pulithanam
+      </p>
+      <p className="text-gray-400 text-xs sm:text-sm">2019 – 2021</p>
+    </div>
+  </div>
+</div>
+
           </div>
         </div>
       </div>
